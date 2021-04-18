@@ -1,0 +1,186 @@
+/*
+filename: Rachelle Teh
+author: Rachelle Teh
+created: 30th March 2021
+last modified: 30th March 2021
+description: [assign1 htmls]
+*/
+
+
+/* base styles*/
+
+/* defining colour root so that it can be used throughout the style sheet */
+:root{
+  --charcoal: #333;
+  --white: #fff;
+  --brown: #604830;
+  --pink: #F0C0C0;
+  --cream: #F0F0D8;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: var(--brown);
+  font-family: Helvetica, Verdana, Arial;
+
+}
+
+body{
+  font-family: Helvetica, Verdana, Arial;
+  color: var(--brown);
+  line-height: 1.6; /* spread line height out*/
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none; /* links underline none */
+  color: var(--brown);
+}
+
+h1, h2{
+  font-weight: 300; /* making it less bold*/
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p{
+  margin: 10px 0; /* so that they are not squished together*/
+}
+
+img{
+  width: 100%; /* so that any images doesn't bust out of the container*/
+}
+
+
+
+/* nav bar style*/
+
+.navbar{
+  background-color: var(--pink);
+  color: #fff;
+  height: 70px; /* height of navbar light grey colour*/
+  border-bottom: 2px solid var(--brown);
+}
+
+
+.navbar a{
+  color: var(--brown);
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #F0F0D8 solid;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar flex{
+  justify-content: space-between;;
+}
+
+.container{ /* container of the contents in the navbar, so that the logo and navbar doesn't squish and stay to the side */
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto; /* gets rid of the spacing on top of h1 logo */
+  padding: 0 40px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+/* Index content */
+
+.eventphoto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cream);
+}
+
+.eventphoto figure img{
+  margin: 20px;
+  width: 700px;
+  height: 400px;
+  border-radius: 10%;
+  background-position: center;
+  box-shadow: black 0 0 5px;
+}
+
+.eventphoto figcaption{
+  font-size: 1em;
+  font-style: oblique;
+}
+
+/* Enquire content */
+
+.form {
+  display: flex;
+  text-align: center;
+
+}
+
+/* Footer */
+
+.footer{
+  background-color: var(--pink);
+}
+
+.container-footer {
+  display:flex;
+  justify-content: space-around;
+  background-color: var(--pink);
+  align-items: center;
+  border-top: 2px solid var(--brown);
+
+}
+
+.container-footer div{
+  padding: 20px;
+  flex-basis: 25%;
+  background-color: var(--pink);
+}
+
+.container-footer a:hover {
+  border-bottom: 2px #F0F0D8 solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sdf */
