@@ -31,6 +31,8 @@ body{
   font-family: Helvetica, Verdana, Arial;
   color: var(--brown);
   line-height: 1.6; /* spread line height out*/
+  background-color: var(--cream);
+
 }
 
 ul{
@@ -128,10 +130,40 @@ img{
 /* Enquire content */
 
 .form {
-  display: flex;
   text-align: center;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 1em;
+  border: 1px solid white;
+  border-radius: 7%;
+  box-shadow: var(--brown) 0 0 4px;
 
 }
+
+.form h1 {
+  font-weight: 500;
+
+}
+.btn {
+  background-color: var(--pink);
+  color: var(--brown);
+  border-radius: 5%;
+  border: 1px solid var(--brown);
+  padding: 5px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.btn:hover {
+   border: none;
+   cursor: pointer;
+   transform: scale(1.3);
+}
+
+}
+
 
 /* Footer */
 
